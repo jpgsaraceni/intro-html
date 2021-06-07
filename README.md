@@ -1,2 +1,2 @@
-# intro-html
-Exercícios de introdução ao HTML do Alpha EdTech (16/02 a 19/02 2021)
+# intro-html (16/02/21 a 19/02/21)
+Exercícios de introdução ao HTML do Alpha EdTech 
