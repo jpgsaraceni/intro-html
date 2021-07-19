@@ -23,3 +23,5 @@ All you need is any text editor to write your HTML pages, and a web browser to r
 
 * [MDN](https://developer.mozilla.org/en-US/docs/Glossary/HTML);
 * [w3schools](https://www.w3schools.com/html/default.asp);
+
+### P.S. I will eventually update the READMEs of each part of this module that I started writing in Portuguese
