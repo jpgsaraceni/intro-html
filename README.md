@@ -8,7 +8,7 @@ In these first activities, I learned about basic tags in HTML.
 
 * Part 1: First HTML page, using the `<header>` tag, containing `<meta />` and `<link />` tags, including Open Graph, cannonical and alternate links, and the `<body>` tag, containing other basic tags for text, image and tables.
 * Part 2: The `<form>` tag, and a basic example of the `<math>` tag.
-* Part 3: Multimidia tags.
+* Part 3: Multimedia tags.
 
 An *HTML tag* is a word between angular brackets, like `<html>`, `<div>` or `<anything>`. An *HTML element* is made up of an opening tag, some text, and a closing tag (the same word as the opening tag with a slash before it e.g. `</anything>`). An *empty element* has no closing tag or enclosed text content, such as `<img>` or `<input>`. Empty tags may also be written with a blank space and slash before the second angular bracket e.g. `<img />`.
 
