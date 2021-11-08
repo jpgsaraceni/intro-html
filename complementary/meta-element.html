@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Elements</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Meta Elements</h1>
+    </header>
+
+    <main>
+      <p>
+        <strong>&lt;meta&gt;</strong> elements are used to represent metadata that cannot be represented by other
+        metadata elements. Asides the <strong>&lt;meta&gt;</strong> element, other metadata elements are
+        <strong>&lt;base&gt;</strong>, &lt;command&gt; <strong>(depracated)</strong>, <strong>&lt;link&gt;</strong>,
+        <strong>&lt;noscript&gt;</strong>, <strong>&lt;script&gt;</strong> and <strong>&lt;title&gt;</strong>.
+      </p>
+      <p>
+        Because they represent metadata content, that is not rendered on screen, they are always empty elements.
+      </p>
+      <p>
+        Most meta elements are always direct children of the <strong>&lt;head&gt;</strong> element, though there
+        are some exceptions.
+      </p>
+
+      <h2>Types of metadata</h2>
+      <p>
+        The attributes define the type of metadata of the element.
+      </p>
+      <ul>
+        <li>
+          <h3>Document-Level Metadata:</h3> applies to the whole page. This type of metadata contains a
+          <strong>name</strong> attribute and a <strong>content</strong> attribute, which define a name-value pair
+          of metadata for the page. See
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name"> here (MDN)</a>
+          for more details about standard metadata names.
+        </li>
+        <li>
+          <h3>Pragma Directive:</h3> <strong>http-equiv</strong> and <strong>content</strong> attribute
+          pairs define HTTP headers equivalents. For more information, see
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-http-equiv">MDN</a>.
+
+        </li>
+        <li>
+          <h3>Charset Declaration:</h3> character encoding for the document. Defined by the
+          <strong>charset</strong> attribute. This element must be entirely within the first 1024 bytes
+          of the document. UTF-8 is the only valid encoding for HTML5.
+        </li>
+        <li>
+          <h3>User-Defined Metadata:</h3> defined by the <strong>itemprop</strong> attribute, adds properties to
+          the element. For more information, see
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop">MDN</a>.
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>
+        For more information about the <strong>&lt;meta&gt;</strong> element, check out
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"> MDN reference</a>
+      </p>
+    </footer>
+  </body>
+
+</html>
